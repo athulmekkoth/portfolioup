@@ -1,8 +1,15 @@
 import React from "react-dom"
-import Navbar from "../Navbar/Navbar"
+import Aboutcard from './Aboutcard.js'
 export default function About()
 {
     return(
-   <div>kjkf</div>
+   <div className="body">
+    <div className="text">
+
+<Aboutcard />
+    </div>
+    </div>
+
+   
     )
 }
