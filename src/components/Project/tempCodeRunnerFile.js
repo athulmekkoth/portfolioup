@@ -1,0 +1,1 @@
+md:grid-cols-2 md:mx-12 lg:grid-cols-3 lg:mx-24
