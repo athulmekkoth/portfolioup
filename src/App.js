@@ -3,7 +3,8 @@ import "./App.css"
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home"
 import About from "./components/About/About";
-import { BrowserRouter,Route,Routes,Router } from "react-router-dom";
+import Project from "./components/Project/Project"
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 export default function App()
 
@@ -14,15 +15,21 @@ export default function App()
  
     <BrowserRouter>
     <Navbar/>
+   
+    
            <Routes>
             
               <Route path="/" element={<Home />} />
               <Route path='about' element={<About/>} />
-            
+              <Route path='projects' element={<Project/>} />
+             
              
            </Routes>
-  
+      
+          
            </BrowserRouter>
+         
+          
     </div>
     
   
