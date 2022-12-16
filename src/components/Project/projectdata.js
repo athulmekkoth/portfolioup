@@ -8,7 +8,7 @@ export default   [
             {
                 "name": "Movie bot",
                 "url": "rr",
-                "ct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem"
+                "ct":""
                 
                 
             },
