@@ -3,9 +3,14 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
-
+  
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        '102': '36rem',
+      }
+      
+    },
   },
   plugins: [],
 }
