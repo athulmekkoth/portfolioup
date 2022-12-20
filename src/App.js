@@ -5,6 +5,7 @@ import Home from "./components/Home/Home"
 import About from "./components/About/About";
 import Project from "./components/Project/Project"
 import { BrowserRouter,Routes,Route } from "react-router-dom";
+import Footer from "./components/footer/Footer";
 
 export default function App()
 
@@ -14,8 +15,8 @@ export default function App()
    
  
     <BrowserRouter>
+
     <Navbar/>
-   
     
            <Routes>
             
@@ -25,6 +26,7 @@ export default function App()
              
              
            </Routes>
+           <Footer/>
       
           
            </BrowserRouter>
@@ -37,3 +39,4 @@ export default function App()
   )
   
 }
+
