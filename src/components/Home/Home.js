@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import cd from "../images/home-main.svg";
+import cd  from '../images/home-main (1).svg'
 import img from "../images/avatar.5852f40fbb38aa284829fa3fb7722225.svg"
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
@@ -17,7 +17,8 @@ export default function Home()
     
   <h1 className=" text-center text-3xl whitespace-nowrap  md:text-7xl md:whitespace-nowrap lg:text-9xl mt-7" >I'm <span className=" text-violet-900 inline-block animate-pulse">ATHUL SURESH </span></h1>
   <div className= " mx-auto md:w-1/2 lg:w-1/3  ">
-  <img className=""  src={cd} alt="img" />      
+  <img className=""  src={cd} alt="img" /> 
+     
   
   </div>
         </div >
