@@ -15,7 +15,7 @@ export default   [
             {
                 "name": "Drake Hotline Bling",
                 "url": "rr",
-                "ct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tem"
+                "ct":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod temeededdedeeedededferferewqfffffffqrqreevfreeffe"
                 
             },
             {

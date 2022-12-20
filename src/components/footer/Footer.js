@@ -2,8 +2,9 @@ import React from "react";
 export default function Footer()
 {
     return(
-        <div className="  absolute bottom-0 w-100 h-2">
-        <div className="h-52 bg-red-700">drvvrr 2d</div>
+        <div className="h-20 font-xs flex justify-center items-center whitespace-nowrap text- md:h-28 shadow-2xl   text-white md:text-2xl ">
+        <div className="">Designed and Developed by Athul Suresh</div>
+    
         </div>
     )
 }
