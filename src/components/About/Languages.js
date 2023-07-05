@@ -1,7 +1,8 @@
 import React from "react";
+import './about.css'
 import { CgCPlusPlus } from "react-icons/cg";
-import { SiSolidity ,SiTailwindcss} from "react-icons/si";
-import { FaSuitcaseRolling } from 'react-icons/fa';
+import { SiMongodb, SiSolidity ,SiTailwindcss,SiMongoose} from "react-icons/si";
+import { FaSuitcaseRolling ,FaAws } from 'react-icons/fa';
 import {
     DiJavascript1,
     DiReact,
@@ -11,9 +12,10 @@ import {
     DiVisualstudio,
     DiGit,
        DiCss3Full,
+       
    
   } from "react-icons/di";
-  
+  import{LuHardHat} from "react-icons/lu"
 export default function Languages()
 {
     return(
@@ -21,20 +23,55 @@ export default function Languages()
     <div className="mt-24 md:">
         <h1 className=" text-center text-6xl font-mono text-white">Skill Set</h1>
   
-         <div className="grid grid-cols-1 mt-5 h-auto gap-4 justify-items-center md:grid-cols-2 lg:grid-cols-3 ">   
+         <div className="grid grid-cols-1 mt-5 h-auto gap-4 justify-items-center md:grid-cols-2 lg:grid-cols-3 mb-12">   
+         <div className="res">
+          <DiJavascript1 />
+        </div>
+        <div className="res">
+          <CgCPlusPlus />
+        </div>
+        <div className="res">
+          <DiNodejs />
+        </div>
+        <div className="res">
+          <DiReact />
+        </div>
+        <div className="res">
+          <DiGit />
+        </div>
+        <div className="res">
+          <DiHtml5 />
+        </div>
+        <div className="res">
+          <DiCss3Full />
+        </div>
+        <div className="res">
+          <DiVisualstudio />
+        </div>
+        <div className="res">
+          <DiLinux />
+        </div>
+        <div className="res">
+          <DiLinux />
+        </div>
+        <div className="res">
+          <SiSolidity />
+        </div>
+        <div className="res">
+          <SiTailwindcss />
+        </div>
+        <div className="res">
+          <SiMongodb />
+        </div>
+        <div className="res">
+          <LuHardHat />
+        </div>
+        <div className="res">
+          <FaAws />
+        </div>
 
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  text-center  text-white text-5xl m border-2 w-48  h-28  md:w-60 "><DiJavascript1/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< CgCPlusPlus/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< DiNodejs/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 text-white text-5xl w-48  h-28  md:w-60 ">  <DiReact/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2    text-white text-5xl w-48  h-28  md:w-60 "> <DiGit/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< DiHtml5/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< DiCss3Full/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< DiVisualstudio/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< DiLinux/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< DiLinux/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2 w-48  h-28  md:w-60 text-white text-5xl">< SiSolidity/></div>
-<div className=" hover:scale-105 shadow-lg rounded-lg shadow-violet-900 flex justify-center items-center  border-violet-700  border-2  w-48  h-28  md:w-60   text-white text-5xl">< SiTailwindcss/></div>
+
+
 
 
 
