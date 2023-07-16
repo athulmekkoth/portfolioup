@@ -7,7 +7,7 @@ import { Slide } from "react-awesome-reveal";
 export default function Home() {
   return (
     <div className="mt-16">
-      <div className="h-96">
+      <div className="">
         <div className="text-white">
           <h1 className="pl-20 text-3xl md:flex font-semibold text-purple-600 md:text-5xl">
             Hi, There <span className="animate-wave">👋🏻</span>
@@ -17,7 +17,7 @@ export default function Home() {
             I'm <span className="text-violet-900 inline-block animate-pulse">ATHUL SURESH</span>
           </h1>
 
-          <div className="mx-auto md:w-1/2 lg:w-1/3">
+          <div className="mx-auto mb-7 md:w-1/2 lg:w-1/3">
           <Slide left>
           <LazyLoadImage
       src={process.env.PUBLIC_URL + 'home-main (1).svg'}
@@ -29,7 +29,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-40 lg:mt-96  mx-auto w-[80%]">
+      <div className="mt-32  mx-auto w-[80%]">
         <div className="flex-[0.5] text-center lg:text-justify text-white font-thin">
           <h1 className="text-center text-4xl sm:text-6xl">
             LET ME<span className="text-purple-600"> INTRODUCE</span> MYSELF
@@ -48,10 +48,10 @@ export default function Home() {
             <span className="text-purple-600">Blockchain Development</span>
           </p>
         </div>
-        <div className="bw-[100%] flex w-[100%]justify-center">
+        <div className="w-[100%] flex flex-row justify-center items-center">
         <LazyLoadImage
  
-  className="flex  relative top-3 mx-auto  hover:animate-pulse "
+  className=" mx-auto  hover:animate-pulse "
   src={process.env.PUBLIC_URL + 'avatar.svg'}
   alt="avatar"
   effect="blur"
