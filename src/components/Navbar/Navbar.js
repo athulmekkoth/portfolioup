@@ -10,7 +10,7 @@ export default function Navbar() {
   }
 
  const [width, setWidth] = React.useState(window.innerWidth);
- const breakpoint = 789;
+ const breakpoint = 768;
  React.useEffect(() => {
   const handleResizeWindow = () => setWidth(window.innerWidth);
    // subscribe to window resize event "onComponentDidMount"
@@ -33,7 +33,7 @@ export default function Navbar() {
         <ul className="flex text-2xl text-white flex-row">  
         <Link className=" hover:text-violet-900 px-8 py-3 hover: via-violet-900  "to='/'> Home</Link>
         <Link  className="hover:text-violet-900 px-8 py-3 hover: via-violet-900 "to='/projects'>Projects</Link>
-        <Link className="hover:text-violet-900  px-8 py-3 hover: via-violet-900 "to='/about'>Resume</Link>
+        <Link rel="noopener noreferrer" target="_blank" className="hover:text-violet-900  px-8 py-3 hover: via-violet-900 "to='https://orange-marga-41.tiiny.site'>Resume</Link>
         <Link className="hover:text-violet-900  px-8 py-3 hover: via-violet-900 " to='/about'>About</Link>
    
         </ul>  

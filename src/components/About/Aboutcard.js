@@ -1,5 +1,5 @@
 import React from "react"
-import im from "../images/man.svg"
+
 
 export default function Aboutcard()
 {
@@ -25,7 +25,7 @@ I am a junior pursuing bachelor's  in Computer Science and Application in Christ
  
 </div>
 <div className="">
-<img className="w-80 mb-6 rounded-lg  mx-auto md:w-1/2 md:mt-48 lg:w-102 lg:mr-12 lg:py-44 " src={im} alt="img"/>
+<img className="w-80 mb-6 rounded-lg  mx-auto md:w-1/2 md:mt-48 lg:w-102 lg:mr-12 lg:py-44 "  src={process.env.PUBLIC_URL + 'man.svg'}  alt="img"/>
 
 </div>
 </div>

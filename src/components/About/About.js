@@ -17,7 +17,7 @@ export default function About()
 
 <Aboutcard />
 <Languages />
-<div className="hover:animate-pulse bg-slate-100 w-[50%] rounded-lg p-5 mx-auto flex justify-center items-center">
+<div className="w-[90%] hover:animate-pulse bg-slate-100 lg:w-[50%] rounded-lg p-5 mx-auto flex justify-center items-center">
 <GitHubCalendar   className=""
  username="athulmekkoth" />
 
