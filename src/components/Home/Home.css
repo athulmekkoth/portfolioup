@@ -1,4 +1,14 @@
-body{
-    background: rgb(14,11,22);
-    background: linear-gradient(90deg, rgba(14,11,22,1) 35%, rgba(135,46,170,1) 100%);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card{
+        @apply px-3 hover:text-violet-900
+    }
+    body{
+       @apply bg-black
+
+    }
+
 }
